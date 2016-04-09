@@ -10,5 +10,5 @@ angular.module('validators').factory('utilFactory', function () {
             }
             return true;
         }
-    }
+    };
 });
