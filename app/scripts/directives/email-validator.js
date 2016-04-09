@@ -14,7 +14,7 @@ angular.module('validators').directive('emailValidator', function (utilFactory) 
 
       ctrl.$validators.invalidEmail = function (value) {
         if (value) {
-          return UtilFactory.validateEmail(value);
+          return utilFactory.validateEmail(value);
         }
         return true;
       };

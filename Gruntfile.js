@@ -389,7 +389,6 @@ module.exports = function (grunt) {
       ],
       dist: [
         'copy:styles',
-        'imagemin',
         'svgmin'
       ]
     },
@@ -446,7 +445,6 @@ module.exports = function (grunt) {
     'cdnify',
     'cssmin',
     'uglify',
-    'filerev',
     'usemin',
     'htmlmin'
   ]);
