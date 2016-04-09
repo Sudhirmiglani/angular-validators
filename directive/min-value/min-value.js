@@ -23,11 +23,7 @@ angular.module('validators').directive('minValue', function () {
                     return;
                 }
 
-                if (Number(currentValue) < min) {
-                    return false;
-                } else {
-                    return true;
-                }
+                return (Number(currentValue) >= min);
             }
 
             ctrl.$validators.minValue = function (value) {

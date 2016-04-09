@@ -8,4 +8,5 @@
 /.bowerrc
 /.npmignore
 /.editorconfig
-/war
+/npm-debug.log
+

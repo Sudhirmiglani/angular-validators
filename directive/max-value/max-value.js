@@ -15,7 +15,6 @@ angular.module('validators').directive('maxValue', function () {
                 if (newValue) {
                     maxLength = newValue.length;
                     maxValue = Number(newValue);
-                    //attrs.$set('maxlength', maxLength);
                     ctrl.$validate();
                 }
             });
@@ -29,11 +28,7 @@ angular.module('validators').directive('maxValue', function () {
                     return;
                 }
 
-                if (Number(currentValue) > max) {
-                    return false;
-                } else {
-                    return true;
-                }
+                return (Number(currentValue) <= max);
             }
 
             ctrl.$validators.maxValue = function (value) {
