@@ -1,11 +1,7 @@
 /node_modules
+/dist
 /.tmp
 /.sass-cache
 /bower_components
-/.idea/
-/.DS_Store
-/.bowerrc
-/.npmignore
-/.editorconfig
-/npm-debug.log
-
+.DS_Store
+.editorconfig
