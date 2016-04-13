@@ -5,8 +5,8 @@ Basic form validators
 #Installing
 #### Bower
 ```javascript
-    bower install angular-validators
-    <script src="bower_components/ng-ui-grid/dist/scripts/ui-grid.js"></script>
+    bower install angular-form-validators
+    <script src="bower_components/angular-form-validators/dist/scripts/scripts.js"></script>
 ```
 
 
